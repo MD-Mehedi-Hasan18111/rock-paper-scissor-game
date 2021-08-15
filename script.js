@@ -8,6 +8,8 @@ const clearScore = () => {
     document.getElementById('com-score').innerText = 0;
     document.getElementById('play-score').innerText = 0;
     document.getElementById('result').innerText = "Game Started!";
+    computerScore = 0;
+    playerScore = 0;
 }
 
 /* --------------------------------------------------
