@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #182C61;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 36px;
+    font-family:cursive;
+    color: #fff;
+}
+
+h4{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+.btn{
+    text-align: center;
+    margin: 0;
+}
+
+.reset-btn{
+    margin-bottom: 25px;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-btn:hover{
+    box-shadow: 0 5px 10px #fff;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid .card{
+    border: 1px solid #000;
+    padding: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+}
+
+.card img{
+    transition: .3s ease-in-out;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+}
+
+.card:hover{
+    box-shadow: 0 10px 20px #F8EFBA;
+}
+
+table{
+    background-color: #000;
+    margin: 0 auto;
+}
+
+table, th, tr, td{
+    border: 5px solid #fff;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+th{
+    color: #fff;
+    font-size: 28px;
+    padding: 10px 50px;
+}
+
+tr:nth-child(2) td{
+    color: red;
+    font-size: 60px;
+}
+
+tr:nth-child(3) td{
+    color: #fff;
+    font-size: 26px;
+    padding: 10px;
+}

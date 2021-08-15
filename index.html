@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Rock Paper Scissors!</h1>
+        <div class="btn">
+            <button onclick="clearScore()" class="reset-btn">Reset</button>
+        </div>
+        <h4>Select option in your turn!</h4>
+        <div class="grid">
+            <div class="card" id="rock">
+                <img width="170" src="img/rock.png" alt="">
+            </div>
+            <div class="card" id="paper">
+                <img width="170" src="img/paper.png" alt="">
+            </div>
+            <div class="card" id="scissor">
+                <img width="170" src="img/scissor.png" alt="">
+            </div>
+        </div>
+
+        <!-- Score Board -->
+        <h1 style="text-align: center;margin: 0; color: #fff;">Game Over in 10 Points!</h1>
+        <table>
+            <tr>
+                <th>Computer</th>
+                <th>Player</th>
+            </tr>
+            <tr>
+                <td><span id="com-score">0</span></td>
+                <td><span id="play-score">0</span></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span id="result">Game Started!</span></td>
+            </tr>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
